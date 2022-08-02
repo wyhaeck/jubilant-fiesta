@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3D485B2896328B001A82EA /* MealList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D485A2896328B001A82EA /* MealList.swift */; };
+		CF3D485D289632D9001A82EA /* ColorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D485C289632D9001A82EA /* ColorOptions.swift */; };
+		CF3D485F289633B5001A82EA /* CustomLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D485E289633B5001A82EA /* CustomLabelStyle.swift */; };
+		CF3D4861289633D6001A82EA /* IngredientRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D4860289633D6001A82EA /* IngredientRow.swift */; };
+		CF3D4863289633FA001A82EA /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D4862289633FA001A82EA /* Meal.swift */; };
+		CF3D48652896342E001A82EA /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D48642896342E001A82EA /* MealData.swift */; };
+		CF3D48672896346F001A82EA /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D48662896346F001A82EA /* MealDetail.swift */; };
+		CF3D48692896349A001A82EA /* MealEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D48682896349A001A82EA /* MealEditor.swift */; };
+		CF3D486F289635D1001A82EA /* MealRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D486E289635D1001A82EA /* MealRow.swift */; };
+		CF3D4871289635F9001A82EA /* MealSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D4870289635F9001A82EA /* MealSymbols.swift */; };
+		CF3D48732896361D001A82EA /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D48722896361D001A82EA /* SymbolPicker.swift */; };
+		CF3D487528963763001A82EA /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D487428963763001A82EA /* Ingredient.swift */; };
+		CF3D487B28974755001A82EA /* WeeklyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D487A28974755001A82EA /* WeeklyGenerator.swift */; };
+		CF3D487D289747EE001A82EA /* GenerateMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D487C289747EE001A82EA /* GenerateMeals.swift */; };
+		CFE4509E287CF4E400D50E69 /* GroceryQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4509D287CF4E400D50E69 /* GroceryQuestApp.swift */; };
+		CFE450A2287CF4E500D50E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE450A1287CF4E500D50E69 /* Assets.xcassets */; };
+		CFE450A5287CF4E500D50E69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE450A4287CF4E500D50E69 /* Preview Assets.xcassets */; };
+		CFE450AF287CF4E500D50E69 /* GroceryQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE450AE287CF4E500D50E69 /* GroceryQuestTests.swift */; };
+		CFE450B9287CF4E500D50E69 /* GroceryQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE450B8287CF4E500D50E69 /* GroceryQuestUITests.swift */; };
+		CFE450BB287CF4E500D50E69 /* GroceryQuestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE450BA287CF4E500D50E69 /* GroceryQuestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFE450AB287CF4E500D50E69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE45092287CF4E400D50E69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE45099287CF4E400D50E69;
+			remoteInfo = GroceryQuest;
+		};
+		CFE450B5287CF4E500D50E69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE45092287CF4E400D50E69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE45099287CF4E400D50E69;
+			remoteInfo = GroceryQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3D485A2896328B001A82EA /* MealList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealList.swift; sourceTree = "<group>"; };
+		CF3D485C289632D9001A82EA /* ColorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptions.swift; sourceTree = "<group>"; };
+		CF3D485E289633B5001A82EA /* CustomLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyle.swift; sourceTree = "<group>"; };
+		CF3D4860289633D6001A82EA /* IngredientRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRow.swift; sourceTree = "<group>"; };
+		CF3D4862289633FA001A82EA /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		CF3D48642896342E001A82EA /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		CF3D48662896346F001A82EA /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		CF3D48682896349A001A82EA /* MealEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealEditor.swift; sourceTree = "<group>"; };
+		CF3D486E289635D1001A82EA /* MealRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRow.swift; sourceTree = "<group>"; };
+		CF3D4870289635F9001A82EA /* MealSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSymbols.swift; sourceTree = "<group>"; };
+		CF3D48722896361D001A82EA /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		CF3D487428963763001A82EA /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		CF3D487A28974755001A82EA /* WeeklyGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGenerator.swift; sourceTree = "<group>"; };
+		CF3D487C289747EE001A82EA /* GenerateMeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMeals.swift; sourceTree = "<group>"; };
+		CFE4509A287CF4E400D50E69 /* GroceryQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE4509D287CF4E400D50E69 /* GroceryQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryQuestApp.swift; sourceTree = "<group>"; };
+		CFE450A1287CF4E500D50E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFE450A4287CF4E500D50E69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFE450AA287CF4E500D50E69 /* GroceryQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE450AE287CF4E500D50E69 /* GroceryQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryQuestTests.swift; sourceTree = "<group>"; };
+		CFE450B4287CF4E500D50E69 /* GroceryQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE450B8287CF4E500D50E69 /* GroceryQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryQuestUITests.swift; sourceTree = "<group>"; };
+		CFE450BA287CF4E500D50E69 /* GroceryQuestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryQuestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE45097287CF4E400D50E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE450A7287CF4E500D50E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE450B1287CF4E500D50E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3D4876289640C2001A82EA /* Ingredient */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D487428963763001A82EA /* Ingredient.swift */,
+				CF3D4860289633D6001A82EA /* IngredientRow.swift */,
+			);
+			path = Ingredient;
+			sourceTree = "<group>";
+		};
+		CF3D48772896411A001A82EA /* Meal */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D4862289633FA001A82EA /* Meal.swift */,
+				CF3D486E289635D1001A82EA /* MealRow.swift */,
+				CF3D485A2896328B001A82EA /* MealList.swift */,
+				CF3D48662896346F001A82EA /* MealDetail.swift */,
+				CF3D48642896342E001A82EA /* MealData.swift */,
+				CF3D48682896349A001A82EA /* MealEditor.swift */,
+			);
+			path = Meal;
+			sourceTree = "<group>";
+		};
+		CF3D487828964257001A82EA /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D485C289632D9001A82EA /* ColorOptions.swift */,
+				CF3D485E289633B5001A82EA /* CustomLabelStyle.swift */,
+				CF3D48722896361D001A82EA /* SymbolPicker.swift */,
+				CF3D4870289635F9001A82EA /* MealSymbols.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		CF3D487928974734001A82EA /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D487A28974755001A82EA /* WeeklyGenerator.swift */,
+				CF3D487C289747EE001A82EA /* GenerateMeals.swift */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		CFE45091287CF4E400D50E69 = {
+			isa = PBXGroup;
+			children = (
+				CFE4509C287CF4E400D50E69 /* GroceryQuest */,
+				CFE450AD287CF4E500D50E69 /* GroceryQuestTests */,
+				CFE450B7287CF4E500D50E69 /* GroceryQuestUITests */,
+				CFE4509B287CF4E400D50E69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE4509B287CF4E400D50E69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4509A287CF4E400D50E69 /* GroceryQuest.app */,
+				CFE450AA287CF4E500D50E69 /* GroceryQuestTests.xctest */,
+				CFE450B4287CF4E500D50E69 /* GroceryQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE4509C287CF4E400D50E69 /* GroceryQuest */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4509D287CF4E400D50E69 /* GroceryQuestApp.swift */,
+				CF3D487828964257001A82EA /* Extras */,
+				CF3D4876289640C2001A82EA /* Ingredient */,
+				CF3D48772896411A001A82EA /* Meal */,
+				CF3D487928974734001A82EA /* Generator */,
+				CFE450A1287CF4E500D50E69 /* Assets.xcassets */,
+				CFE450A3287CF4E500D50E69 /* Preview Content */,
+			);
+			path = GroceryQuest;
+			sourceTree = "<group>";
+		};
+		CFE450A3287CF4E500D50E69 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFE450A4287CF4E500D50E69 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFE450AD287CF4E500D50E69 /* GroceryQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE450AE287CF4E500D50E69 /* GroceryQuestTests.swift */,
+			);
+			path = GroceryQuestTests;
+			sourceTree = "<group>";
+		};
+		CFE450B7287CF4E500D50E69 /* GroceryQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE450B8287CF4E500D50E69 /* GroceryQuestUITests.swift */,
+				CFE450BA287CF4E500D50E69 /* GroceryQuestUITestsLaunchTests.swift */,
+			);
+			path = GroceryQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE45099287CF4E400D50E69 /* GroceryQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE450BE287CF4E500D50E69 /* Build configuration list for PBXNativeTarget "GroceryQuest" */;
+			buildPhases = (
+				CFE45096287CF4E400D50E69 /* Sources */,
+				CFE45097287CF4E400D50E69 /* Frameworks */,
+				CFE45098287CF4E400D50E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroceryQuest;
+			productName = GroceryQuest;
+			productReference = CFE4509A287CF4E400D50E69 /* GroceryQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFE450A9287CF4E500D50E69 /* GroceryQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE450C1287CF4E500D50E69 /* Build configuration list for PBXNativeTarget "GroceryQuestTests" */;
+			buildPhases = (
+				CFE450A6287CF4E500D50E69 /* Sources */,
+				CFE450A7287CF4E500D50E69 /* Frameworks */,
+				CFE450A8287CF4E500D50E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE450AC287CF4E500D50E69 /* PBXTargetDependency */,
+			);
+			name = GroceryQuestTests;
+			productName = GroceryQuestTests;
+			productReference = CFE450AA287CF4E500D50E69 /* GroceryQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFE450B3287CF4E500D50E69 /* GroceryQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE450C4287CF4E500D50E69 /* Build configuration list for PBXNativeTarget "GroceryQuestUITests" */;
+			buildPhases = (
+				CFE450B0287CF4E500D50E69 /* Sources */,
+				CFE450B1287CF4E500D50E69 /* Frameworks */,
+				CFE450B2287CF4E500D50E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE450B6287CF4E500D50E69 /* PBXTargetDependency */,
+			);
+			name = GroceryQuestUITests;
+			productName = GroceryQuestUITests;
+			productReference = CFE450B4287CF4E500D50E69 /* GroceryQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE45092287CF4E400D50E69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CFE45099287CF4E400D50E69 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CFE450A9287CF4E500D50E69 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CFE45099287CF4E400D50E69;
+					};
+					CFE450B3287CF4E500D50E69 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CFE45099287CF4E400D50E69;
+					};
+				};
+			};
+			buildConfigurationList = CFE45095287CF4E400D50E69 /* Build configuration list for PBXProject "GroceryQuest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE45091287CF4E400D50E69;
+			productRefGroup = CFE4509B287CF4E400D50E69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE45099287CF4E400D50E69 /* GroceryQuest */,
+				CFE450A9287CF4E500D50E69 /* GroceryQuestTests */,
+				CFE450B3287CF4E500D50E69 /* GroceryQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE45098287CF4E400D50E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE450A5287CF4E500D50E69 /* Preview Assets.xcassets in Resources */,
+				CFE450A2287CF4E500D50E69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE450A8287CF4E500D50E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE450B2287CF4E500D50E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE45096287CF4E400D50E69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3D485D289632D9001A82EA /* ColorOptions.swift in Sources */,
+				CF3D48732896361D001A82EA /* SymbolPicker.swift in Sources */,
+				CF3D487528963763001A82EA /* Ingredient.swift in Sources */,
+				CF3D4871289635F9001A82EA /* MealSymbols.swift in Sources */,
+				CF3D48652896342E001A82EA /* MealData.swift in Sources */,
+				CF3D486F289635D1001A82EA /* MealRow.swift in Sources */,
+				CF3D48672896346F001A82EA /* MealDetail.swift in Sources */,
+				CF3D4863289633FA001A82EA /* Meal.swift in Sources */,
+				CFE4509E287CF4E400D50E69 /* GroceryQuestApp.swift in Sources */,
+				CF3D4861289633D6001A82EA /* IngredientRow.swift in Sources */,
+				CF3D487B28974755001A82EA /* WeeklyGenerator.swift in Sources */,
+				CF3D487D289747EE001A82EA /* GenerateMeals.swift in Sources */,
+				CF3D48692896349A001A82EA /* MealEditor.swift in Sources */,
+				CF3D485B2896328B001A82EA /* MealList.swift in Sources */,
+				CF3D485F289633B5001A82EA /* CustomLabelStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE450A6287CF4E500D50E69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE450AF287CF4E500D50E69 /* GroceryQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE450B0287CF4E500D50E69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE450B9287CF4E500D50E69 /* GroceryQuestUITests.swift in Sources */,
+				CFE450BB287CF4E500D50E69 /* GroceryQuestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE450AC287CF4E500D50E69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE45099287CF4E400D50E69 /* GroceryQuest */;
+			targetProxy = CFE450AB287CF4E500D50E69 /* PBXContainerItemProxy */;
+		};
+		CFE450B6287CF4E500D50E69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE45099287CF4E400D50E69 /* GroceryQuest */;
+			targetProxy = CFE450B5287CF4E500D50E69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFE450BC287CF4E500D50E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFE450BD287CF4E500D50E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE450BF287CF4E500D50E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GroceryQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = K9X9MNDHLD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyhaeck.GroceryQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFE450C0287CF4E500D50E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GroceryQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = K9X9MNDHLD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyhaeck.GroceryQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFE450C2287CF4E500D50E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9X9MNDHLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyhaeck.GroceryQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryQuest.app/GroceryQuest";
+			};
+			name = Debug;
+		};
+		CFE450C3287CF4E500D50E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9X9MNDHLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyhaeck.GroceryQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroceryQuest.app/GroceryQuest";
+			};
+			name = Release;
+		};
+		CFE450C5287CF4E500D50E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9X9MNDHLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyhaeck.GroceryQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GroceryQuest;
+			};
+			name = Debug;
+		};
+		CFE450C6287CF4E500D50E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9X9MNDHLD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyhaeck.GroceryQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GroceryQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE45095287CF4E400D50E69 /* Build configuration list for PBXProject "GroceryQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE450BC287CF4E500D50E69 /* Debug */,
+				CFE450BD287CF4E500D50E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE450BE287CF4E500D50E69 /* Build configuration list for PBXNativeTarget "GroceryQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE450BF287CF4E500D50E69 /* Debug */,
+				CFE450C0287CF4E500D50E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE450C1287CF4E500D50E69 /* Build configuration list for PBXNativeTarget "GroceryQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE450C2287CF4E500D50E69 /* Debug */,
+				CFE450C3287CF4E500D50E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE450C4287CF4E500D50E69 /* Build configuration list for PBXNativeTarget "GroceryQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE450C5287CF4E500D50E69 /* Debug */,
+				CFE450C6287CF4E500D50E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE45092287CF4E400D50E69 /* Project object */;
+}
