@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SQLite3
+import SQLite
 
 @main
 struct MealPlannerApp: App {

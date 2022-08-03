@@ -21,6 +21,7 @@
 		CF3D487528963763001A82EA /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D487428963763001A82EA /* Ingredient.swift */; };
 		CF3D487B28974755001A82EA /* WeeklyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D487A28974755001A82EA /* WeeklyGenerator.swift */; };
 		CF3D487D289747EE001A82EA /* GenerateMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D487C289747EE001A82EA /* GenerateMeals.swift */; };
+		CF8B135F289A249400077C25 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = CF8B135E289A249400077C25 /* SQLite */; };
 		CFE4509E287CF4E400D50E69 /* GroceryQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4509D287CF4E400D50E69 /* GroceryQuestApp.swift */; };
 		CFE450A2287CF4E500D50E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE450A1287CF4E500D50E69 /* Assets.xcassets */; };
 		CFE450A5287CF4E500D50E69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE450A4287CF4E500D50E69 /* Preview Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		CF3D487428963763001A82EA /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		CF3D487A28974755001A82EA /* WeeklyGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGenerator.swift; sourceTree = "<group>"; };
 		CF3D487C289747EE001A82EA /* GenerateMeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMeals.swift; sourceTree = "<group>"; };
+		CF8B135A289A236300077C25 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Test/Package.swift; sourceTree = "<group>"; };
 		CFE4509A287CF4E400D50E69 /* GroceryQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE4509D287CF4E400D50E69 /* GroceryQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryQuestApp.swift; sourceTree = "<group>"; };
 		CFE450A1287CF4E500D50E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8B135F289A249400077C25 /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +195,7 @@
 		CFE450B7287CF4E500D50E69 /* GroceryQuestUITests */ = {
 			isa = PBXGroup;
 			children = (
+				CF8B135A289A236300077C25 /* Package.swift */,
 				CFE450B8287CF4E500D50E69 /* GroceryQuestUITests.swift */,
 				CFE450BA287CF4E500D50E69 /* GroceryQuestUITestsLaunchTests.swift */,
 			);
@@ -214,6 +218,9 @@
 			dependencies = (
 			);
 			name = GroceryQuest;
+			packageProductDependencies = (
+				CF8B135E289A249400077C25 /* SQLite */,
+			);
 			productName = GroceryQuest;
 			productReference = CFE4509A287CF4E400D50E69 /* GroceryQuest.app */;
 			productType = "com.apple.product-type.application";
@@ -286,6 +293,9 @@
 				Base,
 			);
 			mainGroup = CFE45091287CF4E400D50E69;
+			packageReferences = (
+				CF8B135D289A249400077C25 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			productRefGroup = CFE4509B287CF4E400D50E69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -667,6 +677,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF8B135D289A249400077C25 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF8B135E289A249400077C25 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF8B135D289A249400077C25 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFE45092287CF4E400D50E69 /* Project object */;
 }
